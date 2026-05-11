@@ -1,0 +1,27 @@
+# -----------------------------
+# Python & Jupyter Cache
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+
+# -----------------------------
+# Generated Models & Stats
+# -----------------------------
+# These are created every time run_pipeline.py is executed
+models/sarcasm_model.pkl
+models/winner_name.txt
+models/model_comparison.csv
+
+# -----------------------------
+# Datasets
+# -----------------------------
+# Ignoring processed data since the pipeline builds it
+data/processed_sarcasm.csv
+
+# IMPORTANT: GitHub blocks files over 100MB. 
+# The Reddit SARC file is usually larger than that, so it is 
+# best practice to ignore raw data and provide a download link in a README instead.
+data/train-balanced-sarcasm.csv
