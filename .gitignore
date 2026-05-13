@@ -25,3 +25,4 @@ data/processed_sarcasm.csv
 # The Reddit SARC file is usually larger than that, so it is 
 # best practice to ignore raw data and provide a download link in a README instead.
 data/train-balanced-sarcasm.csv
+data/processed_reddit_sarcasm.csv

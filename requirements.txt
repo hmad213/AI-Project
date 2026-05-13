@@ -14,3 +14,5 @@ nbclient
 # Visualization (for the Evaluation Report)
 matplotlib
 seaborn
+customtkinter
+processed_reddit_sarcasm.csv

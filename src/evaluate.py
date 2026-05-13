@@ -24,6 +24,3 @@ def run_full_report(model, X_test, y_test, model_name="Winning Model"):
     plt.title(f'Confusion Matrix - Used {model_name}') 
     plt.show()
 
-
-
-
